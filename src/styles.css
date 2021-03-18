@@ -1,0 +1,26 @@
+/* You can add global styles to this file, and also import other style files */
+ .content-wrapper .app-content.content {
+  padding: 0 .5rem;
+}
+
+a + a {
+  margin-left: 3px;
+} 
+
+.toast-container {
+  position: absolute;
+  top: 25px;
+  right: 25px;
+  z-index: 999999;
+}
+
+#toast-container > div {
+  min-width: 250px; /* Set a default minimum width */
+  margin-left: -125px; /* Divide value of min-width by 2 */
+  background-color: #333; /* Black background color */
+  color: #fff; /* White text color */
+  text-align: center; /* Centered text */
+  border-radius: 2px; /* Rounded borders */
+  padding: 16px; /* Padding */
+  z-index: 1; /* Add a z-index if needed */
+}

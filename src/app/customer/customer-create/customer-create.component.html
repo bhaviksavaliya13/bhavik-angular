@@ -1,0 +1,56 @@
+<!-- Content Header (Page header) -->
+<section class="content-header">
+    <div class="container-fluid">
+        <div class="row mb-2">
+            <div class="col-sm-6">
+                <h1>Create Customer</h1>
+            </div>
+            <div class="col-sm-6">
+                <ol class="breadcrumb float-sm-right">
+                    <li class="breadcrumb-item"><a href="#">Home</a></li>
+                    <li class="breadcrumb-item active">Create Customer</li>
+                </ol>
+            </div>
+        </div>
+    </div><!-- /.container-fluid -->
+
+
+    <div class="row">
+        <div class="container-fluid">
+            <div class="card">
+                <div class="card-header">
+                    <div class="row">
+                        <h3 class="card-title col-sm-6">Create Customer</h3>
+                    </div>
+                </div>
+                <div class="card-body row">
+                    <div class="form-group col-sm-6">
+                        <label for="inputCustomerName">Customer Name</label>
+                        <input type="text" id="inputCustomerName" class="form-control">
+                    </div>
+                    <div class="form-group col-sm-6">
+                        <label for="inputPhoneNumber">Phone Number</label>
+                        <input id="inputPhoneNumber" class="form-control" />
+                    </div>
+                    <div class="form-group col-sm-6">
+                        <label for="inputEmailId">Email Id</label>
+                        <input id="inputEmailId" class="form-control" />
+                    </div>
+                    <div class="form-group col-sm-6">
+                        <label for="inputAddress">Address</label>
+                        <input id="inputAddress" class="form-control" />
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <a routerLink="/portal/customer/customer-overview" class="btn btn-secondary">Cancel</a>
+                            &nbsp;
+                            <button type="submit" class="btn btn-success float-left">Create</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- /.card-body -->
+            </div>
+        </div>
+        <!-- /.card -->
+    </div>
+</section>
